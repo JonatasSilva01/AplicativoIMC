@@ -21,10 +21,10 @@ namespace Modelo
 
             using (StreamWriter writer = new StreamWriter(Path))
             {
-                writer.WriteLine(Id);
-                writer.WriteLine(Name);
-                writer.WriteLine(Tel);
-                writer.WriteLine(ResultadoImc);
+                writer.WriteLine("INDENTIFICAÇÃO: " + Id);
+                writer.WriteLine("NOME: " + Name);
+                writer.WriteLine("TELEFONE: " + Tel);
+                writer.WriteLine("RESULTADO: " + ResultadoImc);
             }
         }
 
